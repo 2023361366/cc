@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.lian.xiangmu_kuangjia.CollectionActivity">
+<View
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/view2"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/frameLayout">
+        <RadioGroup
+            android:id="@+id/radio_check_collection"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_below="@+id/fram"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <RadioButton
+                style="@style/style"
+                android:id="@+id/sport"
+                android:text="活 动"
+                />
+            <RadioButton
+                style="@style/style"
+                android:id="@+id/object"
+                android:text="专 题"
+                />
+            <RadioButton
+                style="@style/style"
+                android:id="@+id/story"
+                android:text="故 事"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view2"
+        android:id="@+id/frameLayout">
+    </FrameLayout>
+</RelativeLayout>
