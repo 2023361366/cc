@@ -7,7 +7,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="true"
         android:background="@drawable/tupian"
         android:id="@+id/frame_my_information"
         android:layout_alignBottom="@+id/view">
@@ -140,7 +139,6 @@
 
         <TextView
             android:clickable="true"
-            android:onClick="my_travel_say_click"
             android:gravity="center"
             android:paddingLeft="10dp"
             android:drawableLeft="@drawable/youji"

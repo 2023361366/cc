@@ -29,6 +29,14 @@
             android:layout_below="@+id/fram"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
+
+            <RadioButton
+                style="@style/style"
+                android:id="@+id/fanhui"
+                android:text="返回"
+                android:drawableLeft="@drawable/nav_back"
+                />
+
             <RadioButton
                 style="@style/style"
                 android:id="@+id/sport"
